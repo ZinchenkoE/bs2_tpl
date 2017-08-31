@@ -1,5 +1,4 @@
-<? require 'head.php' ?>
-<? require 'header.php' ?>
+<?/** @var $data array */?><? require 'head.php' ?><? require 'header.php' ?>
 
 <div class="container">
     <div class="main">
@@ -73,7 +72,7 @@
                         <div class="sky-form">
                             <div class="sky_form1">
                                 <ul>
-                                    <li><label class="radio left"><input type="radio" name="radio" checked=""><i></i>Male</label>
+                                    <li><label class="radio left"><input type="radio" name="radio" checked><i></i>Male</label>
                                     </li>
                                     <li><label class="radio"><input type="radio" name="radio"><i></i>Female</label></li>
                                     <div class="clearfix"></div>
@@ -129,46 +128,6 @@
             <div class="clearfix"></div>
         </div>
         <!-- end registration -->
-    </div>
-</div>
-<div class="foot-top">
-    <div class="container">
-        <div class="col-md-6 s-c">
-            <li>
-                <div class="fooll">
-                    <h5>follow us on</h5>
-                </div>
-            </li>
-            <li>
-                <div class="social-ic">
-                    <ul>
-                        <li><a href="#"><i class="facebok"> </i></a></li>
-                        <li><a href="#"><i class="twiter"> </i></a></li>
-                        <li><a href="#"><i class="goog"> </i></a></li>
-                        <li><a href="#"><i class="be"> </i></a></li>
-                        <li><a href="#"><i class="pp"> </i></a></li>
-                        <div class="clearfix"></div>
-                    </ul>
-                </div>
-            </li>
-            <div class="clearfix"></div>
-        </div>
-        <div class="col-md-6 s-c">
-            <div class="stay">
-                <div class="stay-left">
-                    <form>
-                        <input type="text" placeholder="Enter your email to join our newsletter" required="">
-                    </form>
-                </div>
-                <div class="btn-1">
-                    <form>
-                        <input type="submit" value="join">
-                    </form>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-        <div class="clearfix"></div>
     </div>
 </div>
 
