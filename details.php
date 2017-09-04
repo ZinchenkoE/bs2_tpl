@@ -13,10 +13,8 @@
                     <div class="grid images_3_of_2">
                         <ul id="etalage">
                             <li>
-                                <a href="optionallink.php">
-                                    <img class="etalage_thumb_image  img-responsive" src="images/d1.jpg">
-                                    <img class="etalage_source_image img-responsive" src="images/d1.jpg" title="">
-                                </a>
+                                <img class="etalage_thumb_image  img-responsive" src="images/d1.jpg">
+                                <img class="etalage_source_image img-responsive" src="images/d1.jpg" title="">
                             </li>
                             <li>
                                 <img class="etalage_thumb_image img-responsive" src="images/d2.jpg" >
@@ -49,14 +47,10 @@
                             <h4>Select a size :</h4>
                             <div class=" sky-form col col-4">
                                 <ul>
-                                    <li><label class="checkbox"><input type="checkbox" name="checkbox"><i></i>L</label>
-                                    </li>
-                                    <li><label class="checkbox"><input type="checkbox" name="checkbox"><i></i>S</label>
-                                    </li>
-                                    <li><label class="checkbox"><input type="checkbox" name="checkbox"><i></i>M</label>
-                                    </li>
-                                    <li><label class="checkbox"><input type="checkbox" name="checkbox"><i></i>XL</label>
-                                    </li>
+                                    <li><label class="checkbox"><input type="checkbox"><i></i>L</label></li>
+                                    <li><label class="checkbox"><input type="checkbox"><i></i>S</label></li>
+                                    <li><label class="checkbox"><input type="checkbox"><i></i>M</label></li>
+                                    <li><label class="checkbox"><input type="checkbox"><i></i>XL</label></li>
                                 </ul>
                             </div>
                         </div>
