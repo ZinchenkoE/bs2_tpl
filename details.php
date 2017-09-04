@@ -13,20 +13,20 @@
                     <div class="grid images_3_of_2">
                         <ul id="etalage">
                             <li>
-                                <img class="etalage_thumb_image  img-responsive" src="images/d1.jpg">
-                                <img class="etalage_source_image img-responsive" src="images/d1.jpg" title="">
+                                <img class="etalage_thumb_image  img-responsive" src="assets/images/d1.jpg">
+                                <img class="etalage_source_image img-responsive" src="assets/images/d1.jpg" title="">
                             </li>
                             <li>
-                                <img class="etalage_thumb_image img-responsive" src="images/d2.jpg" >
-                                <img class="etalage_source_image img-responsive" src="images/d2.jpg"  title="">
+                                <img class="etalage_thumb_image img-responsive" src="assets/images/d2.jpg" >
+                                <img class="etalage_source_image img-responsive" src="assets/images/d2.jpg" title="">
                             </li>
                             <li>
-                                <img class="etalage_thumb_image img-responsive" src="images/d3.jpg" >
-                                <img class="etalage_source_image img-responsive" src="images/d3.jpg" >
+                                <img class="etalage_thumb_image img-responsive" src="assets/images/d3.jpg" >
+                                <img class="etalage_source_image img-responsive" src="assets/images/d3.jpg" >
                             </li>
                             <li>
-                                <img class="etalage_thumb_image img-responsive" src="images/d4.jpg" >
-                                <img class="etalage_source_image img-responsive" src="images/d4.jpg" >
+                                <img class="etalage_thumb_image img-responsive" src="assets/images/d4.jpg" >
+                                <img class="etalage_source_image img-responsive" src="assets/images/d4.jpg" >
                             </li>
                         </ul>
                         <div class="clearfix"></div>
@@ -77,7 +77,7 @@
                     <div class="product">
                         <div class="product-desc">
                             <div class="product-img">
-                                <img src="images/w8.jpg" class="img-responsive " alt="">
+                                <img src="assets/images/w8.jpg" class="img-responsive " alt="">
                             </div>
                             <div class="prod1-desc">
                                 <h5><a class="product_link" href="#">Excepteur sint</a></h5>
@@ -96,7 +96,7 @@
                     <div class="product">
                         <div class="product-desc">
                             <div class="product-img">
-                                <img src="images/w10.jpg" class="img-responsive " alt="">
+                                <img src="assets/images/w10.jpg" class="img-responsive " alt="">
                             </div>
                             <div class="prod1-desc">
                                 <h5><a class="product_link" href="#">Excepteur sint</a></h5>

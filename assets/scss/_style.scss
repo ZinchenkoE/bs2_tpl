@@ -1,9 +1,3 @@
-/*
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
-*/
 h4, h5, h6,
 h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
@@ -139,13 +133,13 @@ body a{
 } 
 
 .close1,.close2{
-  background: url('../images/close_1.png') no-repeat 0px 0px;
+  background: url('../images/close_1.png') no-repeat 0 0;
   cursor: pointer;
   width: 28px;
   height: 28px;
   position: absolute;
-  right: 0px;
-  top: 0px;
+  right: 0;
+  top: 0;
   -webkit-transition: color 0.2s ease-in-out;
   -moz-transition: color 0.2s ease-in-out;
   -o-transition: color 0.2s ease-in-out;
@@ -173,7 +167,7 @@ a.order:hover{
 	background:#615c85;
 }
 .total-item,.cart-items{
-	margin-top:0em;
+	margin-top:0;
 	padding-bottom:2em;
 }
 
@@ -262,23 +256,6 @@ ul.total_price li.last_price span{
   font-size: 1.5em;
   margin-bottom:2em;
 }
-a.item_add1 {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-top-right-radius: 0;
-  /* border-bottom-right-radius: 50%; */
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  padding: 10px 15px;
-  background: url(0) #f54d56;
-}
-a.item_add1:hover{
-	background:rgb(3, 193, 167);
-	text-decoration:none;
-	color:#fff;
-}
 .btn_5{
 	padding:25px 40px;
 	font-size:1.1em;
@@ -313,9 +290,9 @@ ul.qty li p{
 }
 .top_left h2 span {
   color: #000000;
-  margin-right: 0px;
+  margin-right: 0;
   padding: 1px 10px;
-  background: url(../images/phon.png) no-repeat 0px 2px;
+  background: url(./images/phon.png) no-repeat 0 2px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -339,7 +316,7 @@ ul.qty li p{
 }
 .top_right ul li a{
 	text-align:center;
-	padding: 0px 4px;
+	padding: 0 4px;
 	text-transform:uppercase;
 	font-size:12px;
 	display:block;
@@ -460,7 +437,7 @@ select.item_Size {
 #loginBox {
     position:absolute;
 	top: 44px;
-	right: 0px;
+	right: 0;
     display:none;
     z-index:29;
 }
@@ -552,7 +529,7 @@ fieldset#body {
 /* Forgot your password */
 #loginForm span{
     display:block;
-    padding:0px 0px 15px 17px;
+    padding:0px 0 15px 17px;
 }
 #loginForm span a{
 	color:#000;
@@ -608,7 +585,7 @@ input:focus {
 	background: #ffffff;
 }
 .search input[type="submit"]{
-	background: url('../images/search.png') no-repeat 0px 1px;
+	background: url('./images/search.png') no-repeat 0 1px;
 	border: none;
 	cursor: pointer;
 	width: 24px;
@@ -709,10 +686,10 @@ ul.icon1 {
 	-ms-transition: all .2s ease-in-out;
 	-o-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
-	box-shadow: 0px 0px 5px #aaa;
-	-webkit-box-shadow: 0px 0px 5px #aaa;
-	-moz-box-shadow: 0px 0px 5px #aaa;
-	-o-box-shadow: 0px 0px 5px #aaa;
+	box-shadow: 0 0 5px #aaa;
+	-webkit-box-shadow: 0 0 5px #aaa;
+	-moz-box-shadow: 0 0 5px #aaa;
+	-o-box-shadow: 0 0 5px #aaa;
 }
 .icon1 li:hover > ul {
 	opacity: 1;
@@ -784,7 +761,7 @@ ul.icon1 {
 	vertical-align:middle;
 }
 .c1{
-	background: url(../images/art.png) no-repeat 0px 0px;
+	background: url(../images/art.png) no-repeat 0 0;
 	width: 32px;
 	height: 32px;
 	display: inline-block;
@@ -792,7 +769,7 @@ ul.icon1 {
 	margin-top: 2px;
 }
 .c2 {
-  background: url(../images/bag.png) no-repeat 0px 1px;
+  background: url(../images/bag.png) no-repeat 0 1px;
   width: 24px;
   height: 24px;
   display: inline-block;
@@ -815,7 +792,7 @@ ul.icon1 {
 	line-height: 1.8em;
 }
 .sub-icon1.list{
-	padding: 20px 0px;
+	padding: 20px 0;
 }
 .sub-icon1 ul li p a{
 	color: #00405d;
@@ -940,9 +917,9 @@ ul.megamenu.skyblue {
 i.ars {
   width: 35px;
   height: 20px;
-  background: url(../images/arrwss.png)no-repeat 58px -1px ;
+  background: url(./images/arrwss.png)no-repeat 58px -1px ;
   display: inline-block;
-  padding: 0px 53px;
+  padding: 0 53px;
   vertical-align: middle;
 }
 .arriv-info2 {
@@ -1214,7 +1191,7 @@ display:block;
   height: 8px;
   width: 371px;
   content: '';
-  background: url(../images/line.png)no-repeat;
+  background: url(./images/line.png)no-repeat;
   display: block;
   position: absolute;
   left: 301px;
@@ -1224,7 +1201,7 @@ display:block;
   height: 8px;
   width: 371px;
   content: '';
-  background: url(../images/line.png)no-repeat;
+  background: url(./images/line.png)no-repeat;
   display: block;
   position: absolute;
   right: 301px;
@@ -2045,7 +2022,7 @@ p.product_descr {
 .product_price {
 	width:15.3333%;
 	float: left;
-	padding: 0 0px 0px 16px;
+	padding: 0 0 0 16px;
 }
 .price-access {
 	color: #555;
@@ -2087,8 +2064,8 @@ p.product_descr {
 	color:#555555;
 	text-transform:uppercase;
 	font-size: 13px;
-	-webkit-text-stroke: 0px;
-	letter-spacing: 0px;
+	-webkit-text-stroke: 0;
+	letter-spacing: 0;
 }
 .desc1 p a:hover{
 	color: #00405d;
@@ -2727,7 +2704,7 @@ p.cart a {
 }
 .create_btn a {
   padding: 6px 8px;
-  font-size: 0.750em;
+  font-size: 0.750;
 }
 .reg {
   float: left;
@@ -2743,7 +2720,7 @@ p.cart a {
 }
 .create_btn a {
   padding: 6px 8px;
-  font-size: 0.750em;
+  font-size: 0.750;
 }
 .look {
 	right: 230px;
@@ -2815,7 +2792,7 @@ p.cart a {
 }
 i.ars {
   background: url(../images/arrwss.png)no-repeat 16px -1px;
-  padding: 0px 33px;
+  padding: 0 33px;
 }
 .arriv-info2 {
   bottom: 20px;
@@ -2930,7 +2907,7 @@ i.ars {
 	font-size: 0.85em;
 }
 #loginContainer a span {
-  padding: 0px 4px;
+  padding: 0 4px;
   font-size: .8em;
 }
 .reg a {
@@ -3141,7 +3118,7 @@ p.prod-desc, p.product_descr {
   margin-right: 5px;
 }
 .top_right ul li a {
-  padding: 0px 1px;
+  padding: 0 1px;
   font-size: 11px;
 }
 .header_top {
@@ -3157,7 +3134,7 @@ p.prod-desc, p.product_descr {
 }
 .icon1 {
   width: 39%;
-  margin: 0px 0;
+  margin: 0 0;
 }
 .logo {
   margin: 0;
@@ -3181,7 +3158,7 @@ ul.icon1 {
 .arriv-right {
   float: none;
   width: 100%;
-  padding-left: 0px;
+  padding-left: 0;
   margin: 1em 0;
 }
 .arriv-info {
@@ -3202,19 +3179,19 @@ ul.icon1 {
 .arriv-left2 {
   float: none;
   width: 80%;
-  padding: 0px;
+  padding: 0;
   margin: 0 auto;
 }
 .arriv-middle {
   float: none;
   width: 80%;
-  padding: 0px;
+  padding: 0;
   margin: 1em auto;
 }
 .arriv-right2 {
   float: none;
   width: 80%;
-  padding: 0px;
+  padding: 0;
   margin: 0 auto;
 }
 .special h3 {
@@ -3342,7 +3319,7 @@ ul.icon1 {
 }
 .arriv-middle {
   width: 100%;
-  padding: 0px;
+  padding: 0;
   margin: 1em auto;
 }
 .arriv-info3 {
@@ -3351,7 +3328,7 @@ ul.icon1 {
 }
 .arriv-right2 {
   width: 100%;
-  padding: 0px;
+  padding: 0;
   margin: 0 auto;
 }
 .special h3 {
@@ -3398,17 +3375,17 @@ ul.icon1 {
 }
 .cr_btn a {
   padding: 3px 12px;
-  font-size: 0.750em;
+  font-size: 0.750;
 }
 .cr_btn1 a {
   padding: 2px 11px;
-  font-size: 0.750em;
+  font-size: 0.750;
 }
 .contact h2 {
   font-size: 1.1em;
 }
 .contact-form div {
-  padding: 0px 0;
+  padding: 0 0;
 }
 .contact-form input[type="text"], .contact-form textarea {
   padding: 6px;
@@ -3448,7 +3425,7 @@ ul.icon1 {
   padding: 5px 12px;
 }
 .fooll h5 {
-  padding-right: 0em;
+  padding-right: 0;
   margin-bottom: 0.5em;
 }
 .s-d{
@@ -3487,8 +3464,8 @@ padding:0;
   padding: 4px 22px;
 }
 .row {
-  margin-right: 0px;
-  margin-left: 0px;
+  margin-right: 0;
+  margin-left: 0;
 }
 ul#etalage{
 display: block;
@@ -3511,10 +3488,10 @@ p.cart {
   font-size: 0.8125em;
 }
 .shoping_bag h4 {
-  font-size: 0.750em;
+  font-size: 0.750;
 }
 .shoping_left h4 a {
-  font-size: 0.750em;
+  font-size: 0.750;
   line-height: 1.8em;
 }
 .shoping_left h4 {
@@ -3567,8 +3544,8 @@ a.order {
   padding: 2em 0 0;
 }
 .total-item, .cart-items {
-  margin-top: 0em;
-  padding-bottom: 0em;
+  margin-top: 0;
+  padding-bottom: 0;
 }
 .total-item, .cart-items {
   padding: 0;
@@ -3594,4 +3571,3 @@ a.cpns {
   margin:0;
 }
 }
-
