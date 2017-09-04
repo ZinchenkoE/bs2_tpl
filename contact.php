@@ -11,10 +11,10 @@
                 </div>
             </div>
             <div class="contact-form">
-                <h2>Contact Us</h2>
+                <h2>Напишите нам</h2>
                 <form method="post" action="contact-post.php">
                     <div>
-                        <span><label>Name</label></span>
+                        <span><label>Имя</label></span>
                         <span><input name="userName" type="text" class="textbox"></span>
                     </div>
                     <div>
@@ -22,11 +22,11 @@
                         <span><input name="userEmail" type="text" class="textbox"></span>
                     </div>
                     <div>
-                        <span><label>Mobile</label></span>
+                        <span><label>Телефон</label></span>
                         <span><input name="userPhone" type="text" class="textbox"></span>
                     </div>
                     <div>
-                        <span><label>Subject</label></span>
+                        <span><label>Сообщение</label></span>
                         <span><textarea name="userMsg"> </textarea></span>
                     </div>
                     <div>

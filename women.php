@@ -12,14 +12,14 @@
             <div class="women">
                 <a href="#"><h4>Enthecwear - <span>4449 itemms</span></h4></a>
                 <ul class="w_nav">
-                    <li>Sort :</li>
-                    <li><a class="active" href="#">popular</a></li>
+                    <li>Сортировка :</li>
+                    <li><a class="active" href="#">популярность</a></li>
                     |
                     <li><a href="#">new </a></li>
                     |
                     <li><a href="#">discount</a></li>
                     |
-                    <li><a href="#">price: Low High </a></li>
+                    <li><a href="#">цена: с наименьшей</a></li>
                 </ul>
                 <div class="clearfix"></div>
             </div>
@@ -32,7 +32,7 @@
                         <div class="grid1_of_4">
                             <div class="content_box">
                                 <a href="details.php">
-                                    <img src="images/<?= $item['image'] ?>" class="img-responsive">
+                                    <img src="assets/images/<?= $item['image'] ?>" class="img-responsive">
                                 </a>
                                 <h4><a href="details.php"><?= $item['title'] ?></a></h4>
                                 <p>It is a long established fact that</p>

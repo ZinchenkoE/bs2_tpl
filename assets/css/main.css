@@ -5705,7 +5705,7 @@ ul.qty li p {
   color: #000000;
   margin-right: 0;
   padding: 1px 10px;
-  background: url(./images/phon.png) no-repeat 0 2px;
+  background: url(../images/phon.png) no-repeat 0 2px;
   transition: all 0.3s ease-in-out; }
 
 .top_right {
@@ -5987,7 +5987,7 @@ input:focus {
   background: #ffffff; }
 
 .search input[type="submit"] {
-  background: url("./images/search.png") no-repeat 0 1px;
+  background: url("../images/search.png") no-repeat 0 1px;
   border: none;
   cursor: pointer;
   width: 24px;
@@ -6066,7 +6066,7 @@ ul.icon1 {
 .icon1 li:hover > a {
   color: #fafafa; }
 
-*html .icon1 li a:hover {
+* html .icon1 li a:hover {
   /* IE6 only */
   color: #fafafa; }
 
@@ -6306,7 +6306,7 @@ ul.megamenu.skyblue {
 i.ars {
   width: 35px;
   height: 20px;
-  background: url(./images/arrwss.png) no-repeat 58px -1px;
+  background: url(../images/arrwss.png) no-repeat 58px -1px;
   display: inline-block;
   padding: 0 53px;
   vertical-align: middle; }
@@ -6569,26 +6569,6 @@ i.mail {
   color: #3f3d3d;
   background: #e5e4e2;
   border: 1px solid #e5e4e2; }
-
-.special h3:before {
-  height: 8px;
-  width: 371px;
-  content: '';
-  background: url(./images/line.png) no-repeat;
-  display: block;
-  position: absolute;
-  left: 301px;
-  top: 87px; }
-
-.special h3:after {
-  height: 8px;
-  width: 371px;
-  content: '';
-  background: url(./images/line.png) no-repeat;
-  display: block;
-  position: absolute;
-  right: 301px;
-  top: 87px; }
 
 .special h3 {
   font-family: 'Playfair Display', serif;

@@ -6,20 +6,20 @@
             <div class="col-md-6 arriv-left" onclick="location.href = 'details.php'">
                 <img src="assets/images/1.jpg" class="img-responsive" alt="">
                 <div class="arriv-info">
-                    <h3>NEW ARRIVALS</h3>
+                    <h3>ДЛЯ ДЕВОЧЕК</h3>
                     <p>REVIVE YOUR WARDROBE WITH CHIC KNITS</p>
                     <div class="crt-btn">
-                        <a href="details.php">TAKE A LOOK</a>
+                        <a href="details.php">ЗА ПОКУПКАМИ</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 arriv-right">
                 <img src="assets/images/2.jpg" class="img-responsive" alt="">
                 <div class="arriv-info">
-                    <h3>TUXEDO</h3>
+                    <h3>ДЛЯ МАЛЬЧИКОВ</h3>
                     <p>REVIVE YOUR WARDROBE WITH CHIC KNITS</p>
                     <div class="crt-btn">
-                        <a href="details.php">SHOP NOW</a>
+                        <a href="details.php">ЗА ПОКУПКАМИ</a>
                     </div>
                 </div>
             </div>
@@ -72,7 +72,7 @@
 </div>
 <div class="special">
     <div class="container">
-        <h3>Special Offers</h3>
+        <h3>Популярные товары</h3>
         <div class="specia-top">
             <ul class="grid_2">
                 <? foreach($data['specialOffers'] as $item): ?>

@@ -9,7 +9,7 @@
                 </ul>
             </div>
             <div class="top_left">
-                <h2><span></span> Позвоните нам : +380-66-323-05-29</h2>
+                <h2><span></span> Позвоните нам:  +380-66-323-05-29;  +380-68-164-41-33</h2>
             </div>
             <div class="clearfix"> </div>
         </div>
@@ -29,29 +29,29 @@
                     <div class="rgt-bottom">
                         <div class="log">
                             <div class="login" >
-                                <div id="loginContainer"><a href="#" id="loginButton"><span>Login</span></a>
+                                <div id="loginContainer"><a href="#" id="loginButton"><span>Войти</span></a>
                                     <div id="loginBox">
                                         <form id="loginForm">
                                             <fieldset id="body">
                                                 <fieldset>
-                                                    <label for="email">Email Address</label>
+                                                    <label for="email">Email</label>
                                                     <input type="text" name="email" id="email">
                                                 </fieldset>
                                                 <fieldset>
-                                                    <label for="password">Password</label>
+                                                    <label for="password">Пароль</label>
                                                     <input type="password" name="password" id="password">
                                                 </fieldset>
                                                 <input type="submit" id="login" value="Sign in">
-                                                <label for="checkbox"><input type="checkbox" id="checkbox"> <i>Remember me</i></label>
+                                                <label for="checkbox"><input type="checkbox" id="checkbox"> <i>Запомнить меня</i></label>
                                             </fieldset>
-                                            <span><a href="#">Forgot your password?</a></span>
+                                            <span><a href="#">Забыли пароль?</a></span>
                                         </form>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="reg">
-                            <a href="register.php">REGISTER</a>
+                            <a href="register.php">Зарегистрироватся</a>
                         </div>
                         <div class="cart box_1">
                             <a href="checkout.php">
@@ -61,13 +61,13 @@
                             <div class="clearfix"> </div>
                         </div>
                         <div class="create_btn">
-                            <a href="checkout.php">CHECKOUT</a>
+                            <a href="checkout.php">КОРЗИНА</a>
                         </div>
                         <div class="clearfix"> </div>
                     </div>
                     <div class="search">
                         <form>
-                            <input type="text" value="" placeholder="search...">
+                            <input type="text" value="" placeholder="поиск...">
                             <input type="submit" value="">
                         </form>
                     </div>

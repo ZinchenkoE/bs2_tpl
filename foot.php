@@ -24,7 +24,7 @@
             <div class="stay">
                 <div class="stay-left">
                     <form>
-                        <input type="text" placeholder="Enter your email to join our newsletter" required="">
+                        <input type="text" placeholder="Введите Ваш email чтоб получать от нас выгодные предложения" required>
                     </form>
                 </div>
                 <div class="btn-1">

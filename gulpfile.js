@@ -8,7 +8,7 @@ gulp.task('css', function(){
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer('last 4 versions'))
         // .pipe(minifyCss())
-        .pipe(gulp.dest('assets'))
+        .pipe(gulp.dest('assets/css'))
 });
 
 gulp.task('watcher',function(){
@@ -16,4 +16,4 @@ gulp.task('watcher',function(){
 });
 
 //____________________________
-gulp.task('default', ['watcher']);
+gulp.task('default', ['watcher', 'css']);
