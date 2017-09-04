@@ -1,4 +1,4 @@
-<?/** @var $data array */?><? require 'head.php' ?><? require 'header.php' ?>
+<?/** @var $data array */?><? require 'db.php' ?><? require 'head.php' ?><? require 'header.php' ?>
 
 <div class="container">
     <div class="check">

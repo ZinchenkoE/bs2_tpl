@@ -1,4 +1,4 @@
-<?/** @var $data array */?><? require 'head.php' ?><? require 'header.php' ?>
+<?/** @var $data array */?><? require 'db.php' ?><? require 'head.php' ?><? require 'header.php' ?>
 
 <div class="container">
     <div class="main">
@@ -12,7 +12,7 @@
             </div>
             <div class="contact-form">
                 <h2>Contact Us</h2>
-                <form method="post" action="contact-post.html">
+                <form method="post" action="contact-post.php">
                     <div>
                         <span><label>Name</label></span>
                         <span><input name="userName" type="text" class="textbox"></span>

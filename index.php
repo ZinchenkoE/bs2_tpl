@@ -1,4 +1,4 @@
-<?/** @var $data array */?>  <? require 'db.php' ?><? require 'head.php' ?><? require 'header.php' ?>
+<?/** @var $data array */?><? require 'db.php' ?><? require 'head.php' ?><? require 'header.php' ?>
 
 <div class="arriv">
     <div class="container">
@@ -9,7 +9,7 @@
                     <h3>NEW ARRIVALS</h3>
                     <p>REVIVE YOUR WARDROBE WITH CHIC KNITS</p>
                     <div class="crt-btn">
-                        <a href="details.html">TAKE A LOOK</a>
+                        <a href="details.php">TAKE A LOOK</a>
                     </div>
                 </div>
             </div>
@@ -19,7 +19,7 @@
                     <h3>TUXEDO</h3>
                     <p>REVIVE YOUR WARDROBE WITH CHIC KNITS</p>
                     <div class="crt-btn">
-                        <a href="details.html">SHOP NOW</a>
+                        <a href="details.php">SHOP NOW</a>
                     </div>
                 </div>
             </div>
@@ -32,14 +32,14 @@
                     <h3>SWEATER</h3>
                     <p>REVIVE YOUR WARDROBE WITH CHIC KNITS</p>
                     <div class="crt-btn">
-                        <a href="details.html">SHOP NOW</a>
+                        <a href="details.php">SHOP NOW</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 arriv-right1">
                 <img src="images/4.jpg" class="img-responsive" alt="">
                 <div class="arriv-info2">
-                    <a href="details.html"><h3>Trekking Shoes<i class="ars"></i></h3></a>
+                    <a href="details.php"><h3>Trekking Shoes<i class="ars"></i></h3></a>
                 </div>
             </div>
             <div class="clearfix"></div>
@@ -48,7 +48,7 @@
             <div class="col-md-4 arriv-left2">
                 <img src="images/5.jpg" class="img-responsive" alt="">
                 <div class="arriv-info2">
-                    <a href="details.html"><h3>Casual Glasses<i class="ars"></i></h3></a>
+                    <a href="details.php"><h3>Casual Glasses<i class="ars"></i></h3></a>
                 </div>
             </div>
             <div class="col-md-4 arriv-middle">
@@ -56,14 +56,14 @@
                 <div class="arriv-info3">
                     <h3>FRESH LOOK T-SHIRT</h3>
                     <div class="crt-btn">
-                        <a href="details.html">SHOP NOW</a>
+                        <a href="details.php">SHOP NOW</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 arriv-right2">
                 <img src="images/7.jpg" class="img-responsive" alt="">
                 <div class="arriv-info2">
-                    <a href="details.html"><h3>Elegant Watches<i class="ars"></i></h3></a>
+                    <a href="details.php"><h3>Elegant Watches<i class="ars"></i></h3></a>
                 </div>
             </div>
             <div class="clearfix"></div>
@@ -77,7 +77,7 @@
             <ul class="grid_2">
                 <? foreach($data['specialOffers'] as $item): ?>
                     <li>
-                        <a href="details.html"><img src="images/<?= $item['image'] ?>" class="img-responsive"></a>
+                        <a href="details.php"><img src="images/<?= $item['image'] ?>" class="img-responsive"></a>
                         <div class="special-info grid_1 simpleCart_shelfItem">
                             <h5><?= $item['title'] ?></h5>
                             <div class="item_add"><span class="item_price"><h6>ONLY $<?= $item['price'] ?></h6></span></div>

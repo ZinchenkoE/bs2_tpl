@@ -5,7 +5,7 @@
             <div class="top_right">
                 <ul>
                     <li><a href="#">help</a></li>|
-                    <li><a href="contact.html">Contact</a></li>|
+                    <li><a href="contact.php">Contact</a></li>|
                     <li><a href="#">Delivery information</a></li>
                 </ul>
             </div>
@@ -16,13 +16,14 @@
         </div>
     </div>
 </div>
+
 <!-- header -->
 <div class="header_bg">
     <div class="container">
         <div class="header">
             <div class="head-t">
                 <div class="logo">
-                    <a href="index.html"><img src="images/logo.png" class="img-responsive" alt=""/> </a>
+                    <a href="/"><img src="images/logo.png" class="img-responsive" alt=""/> </a>
                 </div>
                 <!-- start header_right -->
                 <div class="header_right">
@@ -51,17 +52,17 @@
                             </div>
                         </div>
                         <div class="reg">
-                            <a href="register.html">REGISTER</a>
+                            <a href="register.php">REGISTER</a>
                         </div>
                         <div class="cart box_1">
-                            <a href="checkout.html">
+                            <a href="checkout.php">
                                 <h3> <span class="simpleCart_total">$0.00</span> (<span id="simpleCart_quantity" class="simpleCart_quantity">0</span> items)<img src="images/bag.png" alt=""></h3>
                             </a>
                             <p><a href="javascript:;" class="simpleCart_empty">(empty card)</a></p>
                             <div class="clearfix"> </div>
                         </div>
                         <div class="create_btn">
-                            <a href="checkout.html">CHECKOUT</a>
+                            <a href="checkout.php">CHECKOUT</a>
                         </div>
                         <div class="clearfix"> </div>
                     </div>
@@ -75,9 +76,10 @@
                 </div>
                 <div class="clearfix"> </div>
             </div>
+
             <!-- start header menu -->
             <ul class="megamenu skyblue">
-                <li class="active grid"><a class="color1" href="index.html">Home</a></li>
+                <li class="active grid"><a class="color1" href="/">Home</a></li>
                 <li class="grid"><a class="color2" href="#">new arrivals</a>
                     <div class="megapanel">
                         <div class="row">
@@ -125,7 +127,7 @@
                                     <h4>account</h4>
                                     <ul>
                                         <li><a href="#">login</a></li>
-                                        <li><a href="register.html">create an account</a></li>
+                                        <li><a href="register.php">create an account</a></li>
                                         <li><a href="women.php">create wishlist</a></li>
                                         <li><a href="women.php">my shopping bag</a></li>
                                         <li><a href="women.php">brands</a></li>
@@ -216,7 +218,7 @@
                                     <h4>account</h4>
                                     <ul>
                                         <li><a href="#">login</a></li>
-                                        <li><a href="register.html">create an account</a></li>
+                                        <li><a href="register.php">create an account</a></li>
                                         <li><a href="women.php">create wishlist</a></li>
                                         <li><a href="women.php">my shopping bag</a></li>
                                         <li><a href="women.php">brands</a></li>
@@ -307,7 +309,7 @@
                                     <h4>account</h4>
                                     <ul>
                                         <li><a href="#">login</a></li>
-                                        <li><a href="register.html">create an account</a></li>
+                                        <li><a href="register.php">create an account</a></li>
                                         <li><a href="women.php">create wishlist</a></li>
                                         <li><a href="women.php">my shopping bag</a></li>
                                         <li><a href="women.php">brands</a></li>
@@ -398,7 +400,7 @@
                                     <h4>account</h4>
                                     <ul>
                                         <li><a href="#">login</a></li>
-                                        <li><a href="register.html">create an account</a></li>
+                                        <li><a href="register.php">create an account</a></li>
                                         <li><a href="women.php">create wishlist</a></li>
                                         <li><a href="women.php">my shopping bag</a></li>
                                         <li><a href="women.php">brands</a></li>
@@ -490,7 +492,7 @@
                                     <h4>account</h4>
                                     <ul>
                                         <li><a href="#">login</a></li>
-                                        <li><a href="register.html">create an account</a></li>
+                                        <li><a href="register.php">create an account</a></li>
                                         <li><a href="women.php">create wishlist</a></li>
                                         <li><a href="women.php">my shopping bag</a></li>
                                         <li><a href="women.php">brands</a></li>
@@ -582,7 +584,7 @@
                                     <h4>account</h4>
                                     <ul>
                                         <li><a href="#">login</a></li>
-                                        <li><a href="register.html">create an account</a></li>
+                                        <li><a href="register.php">create an account</a></li>
                                         <li><a href="women.php">create wishlist</a></li>
                                         <li><a href="women.php">my shopping bag</a></li>
                                         <li><a href="women.php">brands</a></li>
@@ -673,7 +675,7 @@
                                     <h4>account</h4>
                                     <ul>
                                         <li><a href="#">login</a></li>
-                                        <li><a href="register.html">create an account</a></li>
+                                        <li><a href="register.php">create an account</a></li>
                                         <li><a href="women.php">create wishlist</a></li>
                                         <li><a href="women.php">my shopping bag</a></li>
                                         <li><a href="women.php">brands</a></li>
