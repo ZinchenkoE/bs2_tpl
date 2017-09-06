@@ -1,37 +1,20 @@
 <div class="foot-top">
     <div class="container">
-        <div class="col-md-6 s-c">
-            <li>
-                <div class="fooll">
-                    <h5>follow us on</h5>
-                </div>
-            </li>
-            <li>
-                <div class="social-ic">
-                    <ul>
-                        <li><a href="#"><i class="facebok"> </i></a></li>
-                        <li><a href="#"><i class="twiter"> </i></a></li>
-                        <li><a href="#"><i class="goog"> </i></a></li>
-                        <li><a href="#"><i class="be"> </i></a></li>
-                        <li><a href="#"><i class="pp"> </i></a></li>
-                        <div class="clearfix"></div>
-                    </ul>
-                </div>
-            </li>
-            <div class="clearfix"></div>
+        <div class="col-md-6 s-c clearfix">
+            <div class="fooll">
+                <h5>Хотите получать от нас выгодные предложения?</h5>
+            </div>
         </div>
         <div class="col-md-6 s-c">
             <div class="stay">
-                <div class="stay-left">
-                    <form>
-                        <input type="text" placeholder="Введите Ваш email чтоб получать от нас выгодные предложения" required>
-                    </form>
-                </div>
-                <div class="btn-1">
-                    <form>
-                        <input type="submit" value="join">
-                    </form>
-                </div>
+                <form>
+                    <div class="stay-left">
+                        <input type="text" placeholder="Введите Ваш email" required>
+                    </div>
+                    <div class="btn-1">
+                        <button type="submit">Подписаться</button>
+                    </div>
+                </form>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -83,8 +66,8 @@
 
         </div>
         <div class="clearfix"> </div>
-        <p>Copyrights © 2015 Gretong. All rights reserved | Template by <a href="http://w3layouts.com/">W3layouts</a></p>
     </div>
 </div>
+
 </body>
 </html>

@@ -32,7 +32,7 @@
                     <h3>SWEATER</h3>
                     <p>REVIVE YOUR WARDROBE WITH CHIC KNITS</p>
                     <div class="crt-btn">
-                        <a href="details.php">SHOP NOW</a>
+                        <a href="details.php">ЗА ПОКУПКАМИ</a>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@
                 <div class="arriv-info3">
                     <h3>FRESH LOOK T-SHIRT</h3>
                     <div class="crt-btn">
-                        <a href="details.php">SHOP NOW</a>
+                        <a href="details.php">ЗА ПОКУПКАМИ</a>
                     </div>
                 </div>
             </div>

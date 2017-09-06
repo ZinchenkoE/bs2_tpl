@@ -1,9 +1,3 @@
-/*!
- * Bootstrap v3.1.1 (http://getbootstrap.com)
- * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -5986,7 +5980,7 @@ input:focus {
 .search input[type="text"]:hover {
   background: #ffffff; }
 
-.search input[type="submit"] {
+.search [type="submit"] {
   background: url("../images/search.png") no-repeat 0 1px;
   border: none;
   cursor: pointer;
@@ -6429,7 +6423,7 @@ i.goog:hover {
   border: 1px solid #e5e4e2;
   -webkit-appearance: none; }
 
-.btn-1 form input[type="submit"] {
+.btn-1 [type="submit"] {
   background: #0f0f0f;
   padding: 0.5em;
   color: #fff;
@@ -6441,7 +6435,7 @@ i.goog:hover {
   width: 100%;
   text-transform: uppercase; }
 
-.btn-1 form input[type="submit"]:hover {
+.btn-1 [type="submit"]:hover {
   background: rgba(15, 15, 15, 0.72); }
 
 .stay-left {
@@ -7556,7 +7550,7 @@ label {
   border: 1px solid #e7e7e7;
   font-weight: normal; }
 
-.registration_form input[type="submit"] {
+.registration_form [type="submit"] {
   -webkit-appearance: none;
   font-family: 'Open Sans', sans-serif;
   color: #ffffff;
@@ -7574,7 +7568,7 @@ label {
   font-size: 1em;
   margin-bottom: 5px; }
 
-.registration_form input[type="submit"]:hover {
+.registration_form [type="submit"]:hover {
   color: #ffffff;
   background: #00405d; }
 
@@ -7835,7 +7829,7 @@ p.cart a {
   resize: none;
   height: 120px; }
 
-.contact-form input[type="submit"] {
+.contact-form [type="submit"] {
   margin-top: 10px;
   -webkit-appearance: none;
   border: none;
@@ -7850,7 +7844,7 @@ p.cart a {
   text-transform: uppercase;
   transition: all 0.3s ease-in-out; }
 
-.contact-form input[type="submit"]:hover {
+.contact-form [type="submit"]:hover {
   background: #00405d;
   color: #ffffff; }
 
@@ -7911,7 +7905,7 @@ p.cart a {
     font-size: 1em; }
   .stay form input[type="text"] {
     font-size: 0.9em; }
-  .btn-1 form input[type="submit"] {
+  .btn-1 [type="submit"] {
     font-size: 0.93em; }
   .footer {
     padding: 2em 0; }
@@ -8497,7 +8491,7 @@ p.cart a {
   .shoping_left a.btn1 {
     padding: 5px 12px;
     font-size: 0.875em; }
-  .contact-form input[type="submit"] {
+  .contact-form [type="submit"] {
     font-size: 0.875em;
     padding: 5px 12px; }
   .fooll h5 {
